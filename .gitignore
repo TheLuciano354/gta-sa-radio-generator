@@ -9,8 +9,14 @@ output/
 *.mp4
 *.mkv
 
-# Tracklists of local test renders (contain the station's song list)
+# Tracklists and timelines of generated broadcasts
 K-DST_*.txt
+*_semilla*.txt
+*_lista.txt
+*.timeline.json
+
+# Private web version: its own private repository (the built site contains the game's audio)
+web/
 
 # Personal settings (local paths)
 settings.json
