@@ -1,0 +1,33 @@
+# Game audio is copyrighted: never commit it.
+library/
+output/
+*.opus
+*.ogg
+*.mp3
+*.wav
+*.flac
+*.mp4
+*.mkv
+
+# Tracklists of local test renders (contain the station's song list)
+K-DST_*.txt
+
+# Personal settings (local paths)
+settings.json
+
+# Build output and binaries
+build/
+dist/
+.venv*/
+*.exe
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
